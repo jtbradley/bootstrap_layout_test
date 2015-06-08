@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+ <meta charset="utf-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initialscale=1">
+ <title>Epicodus Layout Test</title>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+
+ <style>
+
+ body {
+ 	background-color: snow;
+ }
+
+ .container {
+ 	text-align: center;
+ 	font-family: 'Lato', sans-serif;
+ 	background-color:white;
+ }
+
+.links li{
+	display: inline-block;
+	padding-left: 1em;
+	padding-right: 1em;
+	margin-bottom: 1rem;
+}
+
+.links {
+	border-bottom: 1px solid lightgrey;
+}
+
+.firstP {
+	margin-top: 1rem;
+}
+
+.secondColumn {
+	border-left: 1px solid lightgrey;
+}
+
+@media only screen and (max-width: 992px) {
+    .secondColumn {
+    	border-left: none;
+    	border-top: 1px solid lightgrey;
+    	margin-top: 1em;
+    }
+}
+
+.secondColumn ul {
+	line-height: 1.6em;
+	list-style: none;
+}
+
+a:hover {
+	cursor: pointer;
+	color: cornflowerblue;
+	text-decoration: none;
+	font-weight: 600;
+}
+
+.footer {
+	padding-top: 4em;
+	margin-bottom: 6rem;
+}
+
+ </style>
+
+
+ </head>
+ <body>
+<div class="container">
+
+    <div id= "topBar">
+            <h1>Simple 2 column CSS layout, final layout</h1>
+    </div>
+
+	<div class="nav">
+        <ul class="links">
+            <li><a>Option 1</a></li>
+            <li><a>Option 2</a></li>
+            <li><a>Option 3</a></li>
+            <li><a>Option 4</a></li>
+            <li><a>Option 5</a></li>
+        </ul>
+    </div>
+
+
+    <div class= "firstColumn col-md-8">
+        <h2>Column 1</h2>
+        <a>456 Berea Street Home</a></br>
+        <a>Simple 2 column CSS layout</a>
+
+        <p class ="firstP">
+        	Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+
+        <p>
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+        </p>
+
+        <p>
+            At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
+        </p>
+
+    </div>
+
+    <div class= "secondColumn col-md-4">
+        <h2>Column 2</h2>
+        <p>
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat Epicodus.
+        </p>
+            <ul>
+                <li><a>Link 1</a></li>
+                <li><a>Link 2</a></li>
+                <li><a>Link 3</a></li>
+                <li><a>Link 4</a></li>
+                <li><a>Link 5</a></li>
+                <li><a>Link 6</a></li>
+                <li><a>Link 7</a></li>
+                <li><a>Link 8</a></li>
+                <li><a>Link 9</a></li>
+                <li><a>Link 10</a></li>
+                <li><a>Link 11</a></li>
+                <li><a>Link 12</a></li>
+                <li><a>Link 13</a></li>
+                <li><a>Link 14</a></li>
+                <li><a>Link 15</a></li>
+            </ul>
+
+    </div>
+
+    <div class= "footer col-md-12">
+    	©<a href="https://github.com/jtbradley?tab=repositories">JT Bradley</a>
+    </div>
+
+</div>
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/
+jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script> </body>
+</html>
