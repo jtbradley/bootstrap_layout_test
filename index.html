@@ -16,11 +16,13 @@
  	background-color: snow;
  }
 
+
  .container {
- 	text-align: center;
  	font-family: 'Lato', sans-serif;
  	background-color:white;
+    text-align: center;
  }
+
 
 .links li{
 	display: inline-block;
@@ -39,6 +41,10 @@
 
 .secondColumn {
 	border-left: 1px solid lightgrey;
+}
+
+.column p{
+    text-align: left;
 }
 
 @media only screen and (max-width: 992px) {
@@ -88,7 +94,7 @@ a:hover {
     </div>
 
 
-    <div class= "firstColumn col-md-8">
+    <div class= "firstColumn col-md-8 column">
         <h2>Column 1</h2>
         <a>456 Berea Street Home</a></br>
         <a>Simple 2 column CSS layout</a>
@@ -107,7 +113,7 @@ a:hover {
 
     </div>
 
-    <div class= "secondColumn col-md-4">
+    <div class= "secondColumn col-md-4 column">
         <h2>Column 2</h2>
         <p>
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat Epicodus.
